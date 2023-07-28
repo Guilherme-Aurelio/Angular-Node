@@ -1,0 +1,47 @@
+ header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 32px;
+        font-style: italic;
+        font-weight: 900;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    button.btn {
+        margin-right: 10px
+    }
+    p-table {
+        cursor: pointer;
+    }
+
+    .toolbar-content {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .nav-buttons {
+        display: flex;
+        gap: 16px; 
+      }
+      
+      .logoff-button {
+        background-color: red; 
+      }
+    
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: #007bff;
+        color: #fff;
+      }
+      
+      button:hover {
+        background-color: #0056b3;
+      }
